@@ -1,11 +1,57 @@
 html {
   box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 header {
   display: flex;
+  background-color: #e2e2e2;
+  align-items: center;
+}
+
+img {
+  width: 2rem;
+}
+
+header h1 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+header img {
+  padding-left: 1rem;
+  order: -1;
+  max-height: 50px;
+}
+
+header p {
+  font-size: 1.125rem;
+}
+
+nav ul {
+  display: flex;
+  font-size: 1.125rem;
+  justify-content: flex-end;
+  margin: auto;
+}
+
+nav a {
+  color: #0074d9;
+  padding-left: 1rem;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
 }
